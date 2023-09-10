@@ -28,7 +28,7 @@ const Navbar = () => {
             <NavLink
               textContext="Create Product"
               url="/createproduct"
-              className="nav-link pe-none"
+              className="nav-link"
               onClickEvent={undefined}
             />
             <NavLink
