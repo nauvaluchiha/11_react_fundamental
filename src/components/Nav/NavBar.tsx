@@ -28,8 +28,8 @@ const Navbar = () => {
             <NavLink
               textContext="Create Product"
               url="/createproduct"
-              className="nav-link"
-              onClickEvent={undefined}
+              className="nav-link pe-none"
+              onClickEvent={(event) => event.preventDefault()}
             />
             <NavLink
               textContext="Pricing"
