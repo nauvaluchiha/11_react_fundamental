@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { CreateProduct } from "@/pages/CreateProduct";
+import { CreateProduct } from "@/Pages/CreateProduct";
 import Navbar from "@/components/Nav/NavBar";
 // Import our custom CSS
 // import './styles.scss'
@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<CreateProduct />} />
+        <Route path="/" element={<h1>Home Page</h1>} />
         <Route path="/createproduct" element={<CreateProduct />} />
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
