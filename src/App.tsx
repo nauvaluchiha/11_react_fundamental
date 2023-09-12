@@ -1,6 +1,6 @@
 import { createRoutesFromElements, createBrowserRouter, Route, Link, Outlet, RouterProvider } from "react-router-dom";
 import { CreateProduct } from "@/Pages/CreateProduct";
-import Navbar from "@/components/Nav/NavBar";
+// import Navbar from "@/components/Nav/NavBar";
 // Import our custom CSS
 // import './styles.scss'
 // Import all of Bootstrap's JS
