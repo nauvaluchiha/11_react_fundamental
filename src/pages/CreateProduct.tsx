@@ -6,7 +6,7 @@ import { useEffect } from "react";
 export const CreateProduct = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-  }) 
+  }, []) 
   return (
     <main>
       <section
