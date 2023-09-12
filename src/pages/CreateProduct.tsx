@@ -3,6 +3,7 @@ import ProductForm from "@/components/Product/ProductForm";
 import ProductList from "@/components/Product/ProductList";
 
 export const CreateProduct = () => {
+  window.scrollTo(0, 0);
   return (
     <main>
       <section
