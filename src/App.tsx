@@ -1,4 +1,4 @@
-import { createRoutesFromElements, createBrowserRouter, Route, Link, Outlet, RouterProvider } from "react-router-dom";
+import { createRoutesFromElements, createBrowserRouter, Route, Outlet, RouterProvider } from "react-router-dom";
 import { CreateProduct } from "@/Pages/CreateProduct";
 import Navbar from "@/components/Nav/NavBar";
 // Import our custom CSS
