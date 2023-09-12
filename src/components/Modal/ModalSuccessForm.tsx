@@ -36,7 +36,6 @@ const ModalFormSucces = ({
               {success && (
                 <button type="button" className="btn btn-primary" onClick={() => {
                   window.location.reload();
-                  window.scrollTo(0, 0);
                 }
                 }>
                   Save changes
