@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { CreateProduct } from "@/Pages/CreateProduct";
+import { CreateProduct } from "@/pages/CreateProduct";
 import Navbar from "@/components/Nav/NavBar";
 // Import our custom CSS
 // import './styles.scss'
