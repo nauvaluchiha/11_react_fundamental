@@ -36,7 +36,7 @@ const ModalFormSucces = ({
               {success && (
                 <button type="button" className="btn btn-primary" onClick={() => {
                   window.scrollTo(0, 0);
-                  setTimeout(() => {window.location.reload();}, 400)
+                  setTimeout(() => {window.location.reload();}, 300)
                 }
                 }>
                   Save changes
