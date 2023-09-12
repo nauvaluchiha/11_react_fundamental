@@ -1,9 +1,12 @@
 import bootstrapLogo from "@/assets/bootstrap-logo.svg";
 import ProductForm from "@/components/Product/ProductForm";
 import ProductList from "@/components/Product/ProductList";
+import { useEffect } from "react";
 
 export const CreateProduct = () => {
-  window.scrollTo(0, 0);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }) 
   return (
     <main>
       <section
