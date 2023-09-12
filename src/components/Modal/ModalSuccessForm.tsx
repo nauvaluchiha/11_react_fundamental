@@ -19,7 +19,7 @@ const ModalFormSucces = ({
           <div className="modal-content">
             <div className="modal-header">
               <h1 className="modal-title fs-5" id="exampleModalLabel">
-                {success ? "Succes" : "Failed"}
+                {success ? "Success" : "Failed"}
               </h1>
             </div>
             <div className="modal-body">{textContext}</div>
@@ -36,7 +36,7 @@ const ModalFormSucces = ({
               {success && (
                 <button type="button" className="btn btn-primary" onClick={() => {
                   window.scrollTo(0, 0);
-                  setTimeout(() => {window.location.reload();}, 600)
+                  setTimeout(() => {window.location.reload();}, 400)
                 }
                 }>
                   Save changes
